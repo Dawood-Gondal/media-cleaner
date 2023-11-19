@@ -1,0 +1,27 @@
+{
+    "name": "m2commerce/media-cleaner",
+    "description": "This extension allows you to remove unused and duplicate images",
+    "require": {
+        "php": "~7.3.0|~7.4.0|~8.1.0"
+    },
+    "type": "magento2-module",
+    "keywords": ["magento2"],
+    "version": "1.0.0",
+    "license":[
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name" : "Dawood Gondal",
+            "email" : "dawoodgondaldev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "M2Commerce\\MediaCleaner\\": ""
+        }
+    }
+}
